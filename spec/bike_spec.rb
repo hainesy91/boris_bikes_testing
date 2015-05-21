@@ -2,7 +2,7 @@ require_relative '../lib/bike'
 #We're describing the functionality of a specific class, Bike.
 describe Bike do
 
-  let(:bike) { Bike.new } #Instantiate a new instance of the Bike class
+  let(:bike) { Bike.new } #Instantiate a new instance of the Bike class every time bike is used. 
   
   #this is a specific feature or behaviour
   #that we EXPECT to have

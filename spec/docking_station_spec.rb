@@ -29,5 +29,4 @@ describe DockingStation do
     20.times { station.dock(Bike.new) }
     expect { station.dock(bike) }.to raise_error RuntimeError
   end
-
 end
