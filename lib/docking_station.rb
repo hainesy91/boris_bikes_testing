@@ -8,8 +8,8 @@ class DockingStation
     @bikes.count
   end
 
-  def dock bike
-    @bikes << bike 
+  def dock (bike)
+    @bikes << bike
   end
 
   def release(bike)
